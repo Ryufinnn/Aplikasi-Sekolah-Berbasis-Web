@@ -1,0 +1,13 @@
+
+
+
+select masuk.tglmasuk, jenis.nmjenis, COUNT(nmjenis)from masuk, jenis where masuk.kdjenis=jenis.kdjenis GROUP BY tglmasuk,nmjenis;
+
+
+
+select masuk.tglkeluar, jenis.nmjenis, COUNT(nmjenis)from masuk, jenis where masuk.kdjenis=jenis.kdjenis GROUP BY tglkeluar,nmjenis;
+
+
+select  disposisi.iddisposisi,  disposisi.pejabat, disposisi.kete, disposisi.balas, masuk.nosurat, masuk.tglmasuk,masuk.tglsurat,masuk.perihal,masuk.ket, masuk.pengirim, jenis.kdjenis, jenis.nmjenis from disposisi, masuk, jenis where disposisi.noagenda=masuk.noagenda and masuk.kdjenis=jenis.kdjenis order by iddisposisi;
+
+

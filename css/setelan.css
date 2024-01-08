@@ -1,0 +1,229 @@
+
+
+#kepala{
+	background: #FFF url(../images/ceklaman.jpg) no-repeat;
+	width: 1100px;
+	height: 155px;
+	}
+#penampungmenu{
+	background:#CCFF00;
+	height:30px;
+	width:1200px;
+	margin: 0 0 5px 0;
+	
+	}
+#isi{
+	background: #FFF;
+	width: auto;
+	height: auto;
+	padding: 5px 10px 5px 10px;
+	text-align:justify;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing:normal; 
+	border: 1px solid #0066FF;
+	margin: 5px 0 5px 0; }
+
+#isiform{
+	background: #FFF;
+	width: auto;
+	height: auto;
+	padding: 0px 0 5px 0;
+	text-align:justify;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing:normal;}
+	
+	#catatankaki{
+	background:url(../../images/bg_footer.png) ;
+	height: 80px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-align:left;
+	padding: 5px 10px 0 0;
+	border-radius: 3px;
+	border:1px solid #0066B3}
+	
+	#areaku{
+width:840px;
+background: #660000;
+color: #222;
+border: 1px solid blue;
+padding: 4px;
+border-radius: 15px; /*Kode pembuat lengkungan sudut*/
+
+}
+
+#areaku3{
+width:885px;
+background:url(../images/bg_box_head1.png);
+color: #222;
+border: 0px solid #0099CC;
+padding: 1px;
+border-radius: 6px; /*Kode pembuat lengkungan sudut*/
+}
+
+#areakuceklaman{
+width:1100px;
+background: #FFFFFF;
+color: #222;
+border: 4px solid #0066FF;
+padding: 4px;
+border-radius: 15px; /*Kode pembuat lengkungan sudut*/
+}
+form{
+	margin-top:0px;
+	font-family:trebuchet ms;	
+	height:auto;
+	width:auto;
+	
+	}
+
+ form table{
+			width:100%;
+            border-spacing: 0;	
+        }
+		form caption{
+			text-align:right;
+			padding:5px 13px 5px 0px;			
+			font-weight:bold;
+			
+			color:#FFFFFF;
+			font-size:20px;
+			margin: 0 0 10px 0;}
+        form tr{
+            background: #FFF;
+            padding: 5px;
+        }
+        form tr:hover{
+            background:;
+        }
+        form td{
+            padding: 3px;
+	
+        }
+        form label{
+border-bottom:1px solid #0033CC;
+font-size:13px;
+font-weight:bold;
+cursor: pointer;
+padding-left: 60px;
+float:right;
+        }
+        form .textfield{
+font-size:13px;
+height:20px;
+padding: 1px;
+border: 1px solid #24A2D3;
+			border-radius:2px;
+        }
+
+        form .textfield:hover{
+            border: 1px solid #FFCC66;
+        }
+        form .textfield:focus{
+            border: 1px solid  #FFCC66;
+			background: #FFFFFF
+-webkit-box-shadow: 0px 0px 7px #24A2D3;
+-moz-box-shadow:0px 0px 7px #24A2D3;
+box-shadow:0px 0px 7px #24A2D3;
+        }
+       form .button{
+            background: #660000; 
+            border: 1px solid #24A2D3;
+            cursor: pointer;
+			width:80px;
+			color:#ffffff;
+			padding:2px;
+			height:25px;
+			border-radius:5px;
+        }
+form .button:hover{
+background: #660000;
+width:80px;
+outline:#CCFF66;
+color:#ffffff;
+		} 
+form .button:active{
+border-radius:5px;
+width:80px;
+-webkit-box-shadow: 0px 0px 5px #660066;
+-moz-box-shadow:0px 0px 5px #660066;
+box-shadow:0px 0px 5px #660066;
+
+		}
+#tabelcantik{
+	width: 100%;
+	border:1px solid #000000;
+	height:auto;
+	padding-top:0px;
+	margin-top: 5px;
+	}
+#tomboltambah {
+margin-top:5px;
+	display:block;
+	border: 0px solid #000066;
+	
+		}
+#tomboltambah a img{
+	display: block;
+	background: ;
+	padding: 4px;
+	border: 0px solid #3300FF;
+	margin: 0;
+	width: auto;
+	height: 40px;
+	border-radius: 7px;
+	
+	}
+#tomboltambah a img:hover{
+	display: block;
+	background:#99CCCC;
+	padding: 4px;
+	border: 0px solid #3300FF;
+	width: auto;
+	height: 40px;
+	
+	}
+#tombolkembali {
+	display:block;
+	border: 0px solid #000066;
+	float:right;
+	margin-right: 1080px;
+	margin-top:5px;
+		}
+#tombolkembali a img{
+	display: block;
+	background: ;
+	padding: 4px;
+	border: 0px solid #3300FF;
+	margin: 0;
+	width: auto;
+	height: 40px;
+	border-radius: 7px;
+	
+	}
+#tombolkembali a img:hover{
+	display: block;
+	background:#99CCCC;
+	padding: 4px;
+	border: 0px solid #3300FF;
+	width: auto;
+	height: 40px;
+	
+	}
+#tabelcantik th{
+	background:#99CCFF;
+	font-weight:bold;
+	font-size:13px;
+	padding: 5px 5px 5px 5px;
+	width:auto;
+	height:auto;
+	text-align:center;
+	cursor: pointer;
+	}	
+#tabelcantik td{
+	padding: 2px 2px 2px 2px;
+	font-size:13px;
+	}
+#rapi{
+	clear:both;
+	}
